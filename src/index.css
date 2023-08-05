@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgb(10, 16, 30, 0.9),
+        hsla(240, 84%, 20%, 1)   
+    )!important;
+}
+
+.bg-image {
+    background-image: url('./assets/background.jpg'); /* Replace with your background image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.text-xl {
+    color: rgb(255, 255, 255); /* Set the text color to white (or any other contrasting color) */
+    -webkit-text-stroke: 0.5px #c9236e;
+  }
+
+.hovered-item li:hover {
+    color: rgb(219, 39, 119); /* Replace this with the desired pink color code or tailwind color class */
+  }
