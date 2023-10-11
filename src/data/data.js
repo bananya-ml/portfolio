@@ -1,5 +1,7 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import scatter_plot from '../assets/projects/scatter_plot.png'
+import sagemaker from '../assets/projects/SageMaker_Icon.jpg'
+import bert from '../assets/projects/bert.png' 
 
 export const data=[
     {
@@ -11,16 +13,16 @@ export const data=[
     },
     {
         id:2,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
+        name:"Fine Tune BERT for text Classification",
+        image:bert,
+        github:"https://github.com/bananya-ml/BERT-model",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
+        name:"Semantic Segmentation using SageMaker",
+        image:sagemaker,
+        github:"https://github.com/bananya-ml/Sagemaker",
         live:"",
     },
     {
