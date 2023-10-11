@@ -1,7 +1,7 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import scatter_plot from '../assets/projects/scatter_plot.png'
 import sagemaker from '../assets/projects/SageMaker_Icon.jpg'
-import bert from '../assets/projects/bert.png' 
+import bert from '../assets/projects/BERT.png' 
 
 export const data=[
     {
@@ -23,13 +23,6 @@ export const data=[
         name:"Semantic Segmentation using SageMaker",
         image:sagemaker,
         github:"https://github.com/bananya-ml/Sagemaker",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
         live:"",
     },
 
