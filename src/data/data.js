@@ -1,18 +1,18 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import scatter_plot from '../assets/projects/scatter_plot.png'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
+        name:"Anomaly detection on real-world data",
+        image:scatter_plot,
+        github:"https://github.com/bananya-ml/anticheat",
         live:"",
     },
     {
         id:2,
         name:"React JS Application",
-        image:RealEst,
+        image:WorkIm,
         github:"",
         live:"",
     },
@@ -26,7 +26,7 @@ export const data=[
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
+        image:WorkIm,
         github:"",
         live:"",
     },
