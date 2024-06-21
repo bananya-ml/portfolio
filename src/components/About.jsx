@@ -17,10 +17,11 @@ const About = () => {
               <p>Hi. I'm Ananya Bhatnagar, nice to see you.</p>
             </div>
             <div>
-              <p>I'm a passionate individual working on integration of electronics, astronomy and machine learning,
-              building inspired models that improve quality of life. I specialize in data analysis 
-              for deep learning models, especially scientific Big Data. I am currently looking to
-              apply these skills in the industry, please look around to find out more!</p>  
+              <p>I'm a solution-driven individual working in the field of astronomy and machine learning,
+              building models and methods that improve quality of research. I have experience working with electronics,
+              theoretical astrophysics and practical machine learning (including GenAI). I specialize in deep learning 
+              applications, but I also enjoy software development, and have worked with the popular and niche. Please 
+              look around to find out more about me and my work!</p>  
             </div>
           </div>
       </div>

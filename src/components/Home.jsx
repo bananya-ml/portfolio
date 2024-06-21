@@ -16,9 +16,10 @@ const Home = () => {
           I'm an Astrophysics Postgraduate.
         </h2>
         <p className='text-xl text-pink-600 py-4 font-bold max-w-[700px] shadow'>
-          I’m a postgradute research student specializing in scientific machine learning and 
-          new methods of integrations between astronomy and ML. Currently, I’m working towards 
-          gaining a Master's degree along with a full fledged MLOps skill-set.
+          I’m a graduate research student specializing in scientific machine learning and 
+          research around massive stars. Currently, I’m engaged in building a solution to find
+          more massive stars, and consequently build a robust suite of applications, along 
+          with developing a full fledged MLOps skill-set.
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}> 
