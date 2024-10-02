@@ -2,30 +2,30 @@ import stellarmapper from '../assets/projects/stellarmapper.webp'
 import scatter_plot from '../assets/projects/scatter_plot.png'
 import bert from '../assets/projects/BERT.png' 
 import gpt from '../assets/projects/gpt.jpg'
-import gemini from '../assets/projects/gemini.jpg'
+import massivestar from '../assets/projects/massive-star.jpg'
 import rag from '../assets/projects/rag.png'
 
 export const data=[
     {
         id:1,
-        name:"BitGPT",
-        image:gpt,
-        github:"https://github.com/bananya-ml/BitGPT",
-        live:"",
-    },
-    {
-        id:2,
         name:"StellarMapper",
         image:stellarmapper,
         github:"https://github.com/bananya-ml/StellarMapper",
         live:"",
     },
     {
-        id:3,
-        name:"Gemini Apps",
-        image:gemini,
-        github:"https://github.com/bananya-ml/Gemini-apps",
+        id:2,
+        name:"BitGPT",
+        image:gpt,
+        github:"https://github.com/bananya-ml/BitGPT",
         live:"",
+    },
+    {
+        id:3,
+        name:"Massive Star Suite",
+        image:massivestar,
+        github:"https://github.com/bananya-ml/MassiveStarSuite",
+        live:"https://massive-star-suite.vercel.app/",
     },
     {
         id:4,
@@ -43,11 +43,9 @@ export const data=[
     },
     {
         id:6,
-        name:"Fine Tune BERT for text Classification",
+        name:"Finetune BERT for text classification",
         image:bert,
         github:"https://github.com/bananya-ml/BERT-model",
         live:"",
     },
-
-
 ]

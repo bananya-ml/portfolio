@@ -5,8 +5,6 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import BackgroundWrapper from "./components/Backgroundwrapper";
-import { Parallax } from "react-parallax";
-import backgroundImage from './assets/background.jpg'
 
 function App() {
   return (

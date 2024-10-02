@@ -19,8 +19,8 @@ const About = () => {
             <div>
               <p>I'm a solution-driven individual working in the field of astronomy and machine learning,
               building models and methods that improve quality of research. I have experience working with electronics,
-              theoretical astrophysics and practical machine learning (including GenAI). I specialize in deep learning 
-              applications, but I also enjoy software development, and have worked with the popular and niche. Please 
+              theoretical astrophysics and practical machine learning. I specialize in deep learning 
+              applications, but I also enjoy software development, and have built products in the field of law. Please 
               look around to find out more about me and my work!</p>  
             </div>
           </div>
