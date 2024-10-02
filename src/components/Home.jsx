@@ -16,16 +16,16 @@ const Home = () => {
         </h2>
         <p className='text-xl text-pink-600 py-4 font-bold max-w-[700px] shadow'>
           I’m a graduate research student specializing in scientific machine learning and 
-          research around massive stars. Currently, I’m engaged in building a solution to find
-          more massive stars, and consequently build a robust suite of applications, along 
-          with developing a full fledged MLOps skill-set.
+          building ML products for businesses. 
+          I have a passion for math, physics, and astronomy.
+          Currently, I’m engaged in research focused on massive stars, and building LLM-based products for Synlex Tech.
         </p>
         <div>
           <Link to='work' smooth={true} duration={500}> 
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
+              <HiArrowNarrowRight className='ml-3'/>
             </span>
           </button>
           </Link>

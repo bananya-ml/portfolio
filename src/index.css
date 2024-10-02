@@ -30,17 +30,17 @@
 }
 
 .bg-image {
-    background-image: url('./assets/background.jpg'); /* Replace with your background image path */
+    background-image: url('./assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
 
 .text-xl {
-    color: rgb(255, 255, 255); /* Set the text color to white (or any other contrasting color) */
+    color: rgb(255, 255, 255);
     -webkit-text-stroke: 0.5px #c9236e;
   }
 
 .hovered-item li:hover {
-    color: rgb(219, 39, 119); /* Replace this with the desired pink color code or tailwind color class */
+    color: rgb(219, 39, 119);
   }
